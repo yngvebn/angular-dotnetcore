@@ -1,9 +1,0 @@
-C:\Github\angular-dotnetcore\bin\Debug\netcoreapp1.1\angular-dotnetcore.deps.json
-C:\Github\angular-dotnetcore\bin\Debug\netcoreapp1.1\angular-dotnetcore.runtimeconfig.json
-C:\Github\angular-dotnetcore\bin\Debug\netcoreapp1.1\angular-dotnetcore.runtimeconfig.dev.json
-C:\Github\angular-dotnetcore\bin\Debug\netcoreapp1.1\angular-dotnetcore.dll
-C:\Github\angular-dotnetcore\bin\Debug\netcoreapp1.1\angular-dotnetcore.pdb
-C:\Github\angular-dotnetcore\obj\Debug\netcoreapp1.1\angular-dotnetcore.csproj.CoreCompileInputs.cache
-C:\Github\angular-dotnetcore\obj\Debug\netcoreapp1.1\angular-dotnetcore.AssemblyInfo.cs
-C:\Github\angular-dotnetcore\obj\Debug\netcoreapp1.1\angular-dotnetcore.dll
-C:\Github\angular-dotnetcore\obj\Debug\netcoreapp1.1\angular-dotnetcore.pdb
