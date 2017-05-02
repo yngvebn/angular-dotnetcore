@@ -10,7 +10,7 @@ namespace angular_dotnetcore.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View("~/wwwroot/index.cshtml");
         }
 
         public IActionResult Error()
