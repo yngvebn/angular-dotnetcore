@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\yngve\\.nuget\\packages",
+      "C:\\Users\\yngve\\.dotnet\\NuGetFallbackFolder"
+    ]
+  }
+}
