@@ -1,3 +1,4 @@
+import { MaterialModule } from './material.module';
 import { Routes, RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -29,6 +30,7 @@ const routes: Routes = [
     AboutComponent
   ],
   imports: [
+    MaterialModule,
     BrowserModule,
     FormsModule,
     HttpModule,

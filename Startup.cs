@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Mvc.Razor;
 
 namespace angular_dotnetcore
 {
@@ -29,6 +30,11 @@ namespace angular_dotnetcore
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
+            services.Configure<RazorViewEngineOptions>(options =>
+            {
+                options.ViewLocationExpanders.Add(new WwwRootViewEngine());
+            });
+
             services.AddMvc();
         }
 
@@ -51,7 +57,7 @@ namespace angular_dotnetcore
             }
 
             app.UseStaticFiles();
-
+         
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
