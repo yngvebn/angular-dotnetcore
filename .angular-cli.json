@@ -52,6 +52,7 @@
   },
   "defaults": {
     "styleExt": "scss",
+    "extract-css": "true",
     "component": {
     }
   }

@@ -6,11 +6,11 @@
   </md-card-header>
   <md-card-content>
     <p>
-      hello
+      hello - {{ genericState$ | async }}
     </p>
   </md-card-content>
   <md-card-actions>
-    <button md-raised-button>LIKE</button>
-    <button md-button>SHARE</button>
+    <button md-raised-button (click)="triggerAction()">LIKE</button>
+    <button md-button (click)="triggerMultiply()">SHARE</button>
   </md-card-actions>
 </md-card>

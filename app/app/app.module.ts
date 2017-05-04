@@ -1,3 +1,4 @@
+import { AppStoreModule } from './store/store.module';
 import { MaterialModule } from './material.module';
 import { Routes, RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
@@ -30,6 +31,7 @@ const routes: Routes = [
     AboutComponent
   ],
   imports: [
+    AppStoreModule,
     MaterialModule,
     BrowserModule,
     FormsModule,
